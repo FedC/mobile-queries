@@ -1,0 +1,31 @@
+/* Safari Dev Library recommends to clear all floating on mobile devices
+ ----------------------------------------------------------------------- */
+* { float: none; }
+
+/* --------------------------------- */
+/* iPhone 4 [protrait] 
+ ----------------------------------- */
+@media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
+  
+}
+
+/* --------------------------------- */
+/* iPhone 4 [landscape]
+ ----------------------------------- */
+@media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: landscape) {
+  
+}
+
+/* --------------------------------- */
+/* iPhone 5 [portrait]
+ ----------------------------------- */
+@media screen and (device-height: 568px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* --------------------------------- */
+/* iPhone 5 landscape
+ ----------------------------------- */
+@media screen and (device-height: 568px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  
+}
